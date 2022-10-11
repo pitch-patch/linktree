@@ -1,25 +1,20 @@
-<h1 align="center">🌲 Linktree</h1>
-<h3 align="center">Simple site to group all my profiles on social networks in one place.</h3>
+<h1 align="center">Linktree</h1>
+<h3 align="center">A lightweight and unbranded social media reference landing page.</h3>
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/johnggli/linktree?color=04D361&labelColor=000000">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/pitch-patch/linktree?color=1a7cbd&labelColor=000000">
   
-  <a href="https://www.linkedin.com/in/johnggli/">
-    <img alt="Made by" src="https://img.shields.io/static/v1?label=made%20by&message=John%20Emerson&color=04D361&labelColor=000000">
-  </a>
+  <img alt="Repository Size" src="https://img.shields.io/github/repo-size/pitch-patch/linktree?color=1a7cbd&labelColor=000000">
   
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/johnggli/linktree?color=04D361&labelColor=000000">
-  
-  <a href="https://github.com/johnggli/linktree/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/johnggli/linktree?color=04D361&labelColor=000000">
-  </a>
+  <a href="https://github.com/pitch-patch/linktree/commits/simplified">
+    <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/pitch-patch/linktree?color=1a7cbd&labelColor=000000"></a>
 </p>
 
 <p align="center">
-  <a href="#-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-license">License</a>
+  <a href="#about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#get-started">Get Started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#contribute">Contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#license">License</a>
 </p>
 
 ---
@@ -30,37 +25,31 @@
 
 ---
 
-## 💡 About the project
+## About
 
-This is an open source project that serves as a free alternative to the Linktree website.
-- [Demo](https://johnggli.github.io/linktree)
+This is an open-source social media reference landing page (e.g. alternative to Linktree).
+- [Demo](https://pitch-patch.github.io/linktree)
 
-## 🚀 Getting started
+## Get Started
 
-If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
-[Download the ZIP from this location](https://github.com/johnggli/linktree/archive/master.zip), or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
+Download the [ZIP file](https://github.com/pitch-patch/linktree/archive/refs/heads/simplified.zip) or run the following [git](https://git-scm.com/downloads) command to clone the files and edit `index.html` and `style.css` to your liking. If you want to track the performance of your links, use shortlinks (e.g. [short.io](https://short.io)).
 ```bash
-git clone https://github.com/johnggli/linktree
+git clone https://github.com/pitch-patch/linktree
 ```
-- Once the files are on your machine, open the _linktree_ folder in [Visual Studio Code](https://code.visualstudio.com/).
-- With the files open in Visual Studio Code, press the **Go Live** button at the bottom of the window to launch the files with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
-- Change the profile image and texts in the `index.html` file.
-- Change the colors and fonts in the `style.css` file.
-- To change the background, go to the `style.css` file on line 17, uncomment the code snippet and change the url to whatever image you want.
 
-## 🤔 How to contribute
+## Contribute
 
-- Fork this repository;
-- Create a branch with your feature: `git checkout -b my-feature`;
-- Commit your changes: `git commit -m "feat: my new feature"`;
-- Push to your branch: `git push origin my-feature`.
+- Fork this repository
+- Create a branch with your feature: `git checkout -b my-feature`
+- Commit your changes: `git commit -m "feat: my new feature"`
+- Push to your branch: `git push origin my-feature`
 
 Once your pull request has been merged, you can delete your branch.
 
-## 📝 License
+## License
 
-This project is under the MIT license. See the [LICENSE](LICENSE.md) file for more details.
+Licensed under the [MIT](LICENSE.md) license.
 
 ---
 
-Made with ❤️ by John Emerson :wave: [Get in touch](https://johnggli.github.io/linktree)
+Forked with ♥ by pitch patch. [Get in touch](https://pitch-patch.github.io/linktree).
