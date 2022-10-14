@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+
+:root {
+    --bgColor: #212121;
+    --accentColor: #FFF;
+    --font: 'Karla', sans-serif;
+}
+
+html {
+-webkit-font-smoothing: antialiased;
+}
+
+body {
+    margin: 0;
+    padding: 0;   
+    font-family: var(--font);
+    background: var(--bgColor);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#wraper {
+    margin: 20px;
+}
+
+#profilePicture, #profilePicture img {
+    position: relative;
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto 40px;
+}
+
+#links {
+    max-width: 250px;
+    width: auto;
+    display: block;
+    margin: 0px auto;
+}
+
+.link {
+    position: relative;
+    background-color: transparent;
+    color: var(--accentColor);
+    border: solid var(--accentColor) 2px;
+    font-size: 1rem;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+    padding: 16px;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+@media (hover: hover) {
+    .link:hover {
+        background-color: var(--accentColor);
+        color: var(--bgColor);
+    }
+}
+
+.link:active {
+    background-color: var(--accentColor);
+    color: var(--bgColor);
+}
+
+#social {
+    position: relative;
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    padding: 0;
+    margin: 40px 0 20px 0;
+}
+
+i.social {
+    color: var(--accentColor);
+    transition: all .5ms ease-in-out;
+}
+
+i.social:hover {
+    transform: scale(1.1);
+}
+
+#hashtag {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    color: var(--accentColor);
+    font-size: .8rem;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+}
