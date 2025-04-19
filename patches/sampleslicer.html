@@ -1,0 +1,39 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sampleslicer MKIII Patch</title>
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+  <style>
+    body { font-family: sans-serif; padding: 2em; background: #1e1e1e; color: #eee; }
+    .mermaid { background: #fff; padding: 1em; border-radius: 8px; }
+    a { color: #8ae; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <h1>Sampleslicer MKIII Patch</h1>
+
+  <div class="mermaid">
+graph LR
+    A(Pam's New Workout) -->|Clock OUT 1| B(Ginkosynthese SampleSlicer);
+    A -->|Rec Trig OUT 2| B;
+    A -->|LFO/Rand CV OUT 3| B;
+    A -->|CV OUT 4| C(uVCA);
+    A -->|Quantized CV OUT 1| D(Hikari Ping Filter);
+    A -->|Fast Gate OUT 2| C;
+    D -->|Audio OUT| E(SampleSlicer);
+    E -->|Audio OUT L| C;
+    C -->|OUT A| F(Disting mk4);
+    F -->|OUT L| G(Output / Audio Interface);
+  </div>
+
+  <p style="margin-top: 2em;">
+    Watch the video at 
+    <a href="https://www.youtube.com/pitchpatch" target="_blank">youtube.com/pitchpatch</a>
+  </p>
+</body>
+</html>
